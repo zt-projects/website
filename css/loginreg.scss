@@ -1,1 +1,143 @@
 @charset "utf-8";
+
+//公共样式
+.width100{
+    width: 100%;
+}
+.marginauto{
+    margin: 0 auto;
+}
+.width962{
+    width: 962px;
+}
+
+//头部
+.lrtopWrap{
+//  background: #000000;
+    height: 100px;
+    border-bottom: 1px solid #e8e8ea;
+    .lrtop{
+        height: 100px;
+//      background: yellowgreen;
+        overflow: hidden;
+        h1{
+            width: 220px;
+            height: 70px;
+            padding-top: 30px;
+            float: left;
+            margin-right: 238px;
+            a{
+                display: block;
+                width: 220px;
+                height: 42px;
+                background: url(../images/lrtop1.png) no-repeat left top;
+                
+            }
+            
+        }
+        .lrtopright{
+            width: 504px;
+            height: 100px;
+            background: url(../images/lrtop2.jpg) no-repeat left top;
+            float: left;
+        }
+    }
+}
+
+//中部
+.centerWrap{
+    height: 520px;
+    background: url(../images/lrcenterbg.jpg) no-repeat center center;
+    .centercon{
+        height: 520px;
+        .outbox{
+            width: 350px;
+            height: 392px;      //暂定
+            overflow: hidden;  
+            background: yellow;
+            position: absolute;
+            top: 149px;
+            left: 808px;
+            border: 1px solid #eaeaea;
+            .login{
+//              background: yellow;
+                position: absolute;
+                width: 350px;
+//              height: 392px;
+                top: 0;
+                left: 0;
+                ul{
+                    width: 350px;
+                    height: 52px;
+                    border-bottom: 1px solid #dddddd;
+                    background: #f8f8f8;
+                    li{
+                        width: 175px;
+                        height: 52px;
+                        float: left;
+                        line-height: 52px;
+                        text-align: center;
+                        font-size: 16px;
+                        cursor: pointer;
+                        font-weight: bold;
+                        b{
+                            display: block;
+                            width: 1px;
+                            height: 16px;
+                            background: #999999;
+                            position: absolute;
+                            left: 175px;
+                            top: 17px;
+                        }
+                    }
+                    .loginulactive{
+                        color: #E31436;
+                    }
+                }
+                ol{
+                    
+                    li{
+                        width:270px;
+                        padding: 0 40px;
+                        display: none;
+                    }
+                    .phonelogin{
+                        height: 339px;
+                        background: yellowgreen;
+                    }
+                    .emaillogin{
+                        height: 271px;
+                        background: yellow;
+                    }
+                    .loginolactive{
+                        display: block;
+                    }
+                }
+            }
+            
+            
+            
+            .register{
+                background: blue;
+                position: absolute;
+                width: 350px;
+//              height: ;
+                top: 0;
+                left: 0;
+                display: none;    //暂定
+            }
+            .show{
+                display: block;
+            }
+        }
+    }
+}
+
+//底部
+.lrbottomWrap{
+    .lrbottom{
+        width: 1087px;
+        height: 255px;
+        background: yellowgreen;
+    }
+}

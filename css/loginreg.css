@@ -1,3 +1,103 @@
+.width100 {
+  width: 100%; }
 
+.marginauto {
+  margin: 0 auto; }
+
+.width962 {
+  width: 962px; }
+
+.lrtopWrap {
+  height: 100px;
+  border-bottom: 1px solid #e8e8ea; }
+  .lrtopWrap .lrtop {
+    height: 100px;
+    overflow: hidden; }
+    .lrtopWrap .lrtop h1 {
+      width: 220px;
+      height: 70px;
+      padding-top: 30px;
+      float: left;
+      margin-right: 238px; }
+      .lrtopWrap .lrtop h1 a {
+        display: block;
+        width: 220px;
+        height: 42px;
+        background: url(../images/lrtop1.png) no-repeat left top; }
+    .lrtopWrap .lrtop .lrtopright {
+      width: 504px;
+      height: 100px;
+      background: url(../images/lrtop2.jpg) no-repeat left top;
+      float: left; }
+
+.centerWrap {
+  height: 520px;
+  background: url(../images/lrcenterbg.jpg) no-repeat center center; }
+  .centerWrap .centercon {
+    height: 520px; }
+    .centerWrap .centercon .outbox {
+      width: 350px;
+      height: 392px;
+      overflow: hidden;
+      background: yellow;
+      position: absolute;
+      top: 149px;
+      left: 808px;
+      border: 1px solid #eaeaea; }
+      .centerWrap .centercon .outbox .login {
+        position: absolute;
+        width: 350px;
+        top: 0;
+        left: 0; }
+        .centerWrap .centercon .outbox .login ul {
+          width: 350px;
+          height: 52px;
+          border-bottom: 1px solid #dddddd;
+          background: #f8f8f8; }
+          .centerWrap .centercon .outbox .login ul li {
+            width: 175px;
+            height: 52px;
+            float: left;
+            line-height: 52px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold; }
+            .centerWrap .centercon .outbox .login ul li b {
+              display: block;
+              width: 1px;
+              height: 16px;
+              background: #999999;
+              position: absolute;
+              left: 175px;
+              top: 17px; }
+          .centerWrap .centercon .outbox .login ul .loginulactive {
+            color: #E31436; }
+        .centerWrap .centercon .outbox .login ol li {
+          width: 270px;
+          padding: 0 40px;
+          display: none; }
+        .centerWrap .centercon .outbox .login ol .phonelogin {
+          height: 339px;
+          background: yellowgreen; }
+        .centerWrap .centercon .outbox .login ol .emaillogin {
+          height: 271px;
+          background: yellow; }
+        .centerWrap .centercon .outbox .login ol .loginolactive {
+          display: block; }
+      .centerWrap .centercon .outbox .register {
+        background: blue;
+        position: absolute;
+        width: 350px;
+        top: 0;
+        left: 0;
+        display: none; }
+      .centerWrap .centercon .outbox .show {
+        display: block; }
+
+.lrbottomWrap .lrbottom {
+  width: 1087px;
+  height: 255px;
+  background: yellowgreen; }
 
 /*# sourceMappingURL=loginreg.css.map */
