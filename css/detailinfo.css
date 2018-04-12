@@ -1,0 +1,542 @@
+@charset "UTF-8";
+.nav .listtop .leftnav {
+  display: none; }
+
+.nav .listtop {
+  cursor: pointer; }
+
+.contop {
+  height: 39px;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  background: #FFFFFF;
+  line-height: 61px;
+  padding-top: 22px; }
+  .contop span {
+    color: #999999;
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 15px; }
+  .contop .one {
+    border: 1px solid #DDDDDD;
+    padding: 3px 15px 0 5px;
+    float: left;
+    position: relative;
+    background: #FFFFFF;
+    z-index: 1000; }
+    .contop .one a {
+      color: #333333;
+      display: block;
+      height: 20px;
+      line-height: 20px;
+      padding-left: 5px;
+      position: relative;
+      z-index: 100; }
+      .contop .one a:hover {
+        color: #E31436; }
+    .contop .one div {
+      position: absolute;
+      padding: 10px;
+      background: #FFFFFF;
+      border: 1px solid #999999;
+      width: 300px;
+      display: none;
+      z-index: 4;
+      left: 0;
+      top: 20px; }
+      .contop .one div a {
+        display: block;
+        margin: 8px;
+        float: left; }
+    .contop .one .show {
+      display: block; }
+
+.detailcon {
+  height: 688px;
+  padding-top: 37px; }
+  .detailcon #box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #eeeeee;
+    margin-right: 30px;
+    float: left; }
+    .detailcon #box ul {
+      overflow: hidden;
+      position: absolute;
+      top: 400px;
+      left: 0;
+      width: 400px; }
+      .detailcon #box ul li {
+        float: left;
+        border-top: none;
+        width: 64px;
+        margin-top: 18px;
+        border: 1px solid #EEEEEE;
+        margin-right: 16px; }
+      .detailcon #box ul .imgactive {
+        border: 3px solid #e31436; }
+      .detailcon #box ul .norightmargin {
+        margin-right: 0; }
+    .detailcon #box .small {
+      width: 400px;
+      height: 400px;
+      position: relative;
+      cursor: move; }
+      .detailcon #box .small img {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .detailcon #box .small #mask {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        background: #C2C2C2;
+        opacity: 0.7;
+        top: 0;
+        left: 0;
+        display: none;
+        z-index: 2; }
+      .detailcon #box .small #mm {
+        z-index: 1; }
+    .detailcon #box .big {
+      width: 400px;
+      height: 400px;
+      border: 1px solid #CCCCCC;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      left: 430px;
+      display: none; }
+      .detailcon #box .big .bigImage {
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .detailcon #box .big #bm {
+        z-index: 1; }
+  .detailcon .detailright {
+    float: left;
+    width: 658px;
+    height: 688px; }
+    .detailcon .detailright .rittop {
+      height: 30px;
+      line-height: 30px;
+      background: url(../images/wyzy.jpg) no-repeat top right; }
+      .detailcon .detailright .rittop img {
+        display: block;
+        width: 24px;
+        height: 24px;
+        float: left;
+        margin-right: 5px; }
+      .detailcon .detailright .rittop span {
+        font-size: 14px;
+        color: #999999; }
+    .detailcon .detailright h3 {
+      height: 36px;
+      line-height: 36px;
+      font-family: "黑体";
+      font-size: 20px;
+      color: #333333;
+      font-weight: bold; }
+    .detailcon .detailright .miaoshu {
+      height: 40px;
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 11px; }
+    .detailcon .detailright .gray {
+      height: 78px;
+      background: #f9f9f9;
+      border-bottom: 1px dotted #dddddd;
+      border-top: 1px dotted #dddddd; }
+      .detailcon .detailright .gray dt {
+        width: 75px;
+        height: 78px;
+        float: left;
+        padding-left: 10px;
+        line-height: 51px; }
+      .detailcon .detailright .gray dd {
+        float: left;
+        height: 78px;
+        width: 573px; }
+        .detailcon .detailright .gray dd .firstp {
+          font-family: "黑体";
+          color: #e31436;
+          font-size: 20px;
+          font-weight: bold;
+          height: 50px;
+          line-height: 50px; }
+          .detailcon .detailright .gray dd .firstp span {
+            font-size: 12px;
+            color: #999999;
+            line-height: 50px;
+            font-weight: 100;
+            margin-left: 15px; }
+        .detailcon .detailright .gray dd .secondp img {
+          width: 51px;
+          height: 14px;
+          display: block;
+          float: left;
+          margin-right: 8px; }
+        .detailcon .detailright .gray dd .secondp span {
+          margin-right: 31px; }
+        .detailcon .detailright .gray dd .secondp a {
+          text-decoration: underline;
+          color: #000000; }
+    .detailcon .detailright .center {
+      height: 358px;
+      padding: 10px 0 0 10px; }
+      .detailcon .detailright .center dt {
+        width: 75px;
+        float: left; }
+      .detailcon .detailright .center dd {
+        width: 573px;
+        float: left; }
+      .detailcon .detailright .center .activity {
+        height: 54px; }
+        .detailcon .detailright .center .activity dt {
+          height: 54px;
+          line-height: 26px;
+          float: left; }
+        .detailcon .detailright .center .activity dd {
+          float: left;
+          height: 54px; }
+          .detailcon .detailright .center .activity dd p {
+            color: #e31436;
+            padding: 4px 0 4px 0; }
+            .detailcon .detailright .center .activity dd p span {
+              display: block;
+              float: left;
+              width: 56px;
+              height: 18px;
+              background: #e31436;
+              line-height: 18px;
+              color: #FFFFFF;
+              margin-right: 5px;
+              text-align: center; }
+      .detailcon .detailright .center .yunfei {
+        height: 35px; }
+        .detailcon .detailright .center .yunfei dt {
+          height: 35px;
+          line-height: 35px;
+          float: left; }
+        .detailcon .detailright .center .yunfei dd {
+          float: left;
+          height: 35px;
+          line-height: 35px; }
+          .detailcon .detailright .center .yunfei dd b {
+            display: block;
+            height: 35px;
+            width: 20px;
+            float: left; }
+          .detailcon .detailright .center .yunfei dd a {
+            display: block;
+            float: left;
+            height: 18px;
+            line-height: 18px;
+            width: 139px;
+            border: 1px solid #CCCCCC;
+            margin-right: 20px;
+            margin-top: 7px;
+            background: #FFFFFF; }
+          .detailcon .detailright .center .yunfei dd span {
+            display: block;
+            float: left;
+            padding: 0 10px; }
+          .detailcon .detailright .center .yunfei dd .spanyiru {
+            border: 1px solid #666666; }
+      .detailcon .detailright .center .fuwu {
+        height: 19px;
+        line-height: 19px; }
+        .detailcon .detailright .center .fuwu dt {
+          height: 19px;
+          line-height: 19px; }
+        .detailcon .detailright .center .fuwu dd {
+          height: 19px;
+          line-height: 19px; }
+      .detailcon .detailright .center .chima {
+        height: 52px;
+        line-height: 52px; }
+        .detailcon .detailright .center .chima dt {
+          height: 52px;
+          line-height: 52px; }
+        .detailcon .detailright .center .chima dd {
+          height: 52px;
+          line-height: 52px; }
+          .detailcon .detailright .center .chima dd a {
+            display: block;
+            margin-right: 10px;
+            margin-top: 14px;
+            float: left;
+            height: 22px;
+            width: 95px;
+            border: 1px solid #666666;
+            line-height: 22px;
+            text-align: center;
+            background: #FFFFFF; }
+          .detailcon .detailright .center .chima dd .yiru {
+            border: 2px solid #e31436;
+            color: #e31436; }
+      .detailcon .detailright .center .guige {
+        height: 26px;
+        line-height: 26px; }
+        .detailcon .detailright .center .guige dd a {
+          display: block;
+          height: 22;
+          width: 43px;
+          border: 1px solid #666666;
+          text-align: center;
+          line-height: 22px;
+          background: #FFFFFF; }
+        .detailcon .detailright .center .guige dd .yiru {
+          border: 2px solid #e31436;
+          color: #e31436; }
+      .detailcon .detailright .center .shuliang {
+        height: 52px;
+        line-height: 52px; }
+        .detailcon .detailright .center .shuliang dd span {
+          display: block;
+          width: 22px;
+          height: 22px;
+          text-align: center;
+          line-height: 22px;
+          float: left;
+          border: 1px solid #666666;
+          background: #FFFFFF;
+          font-size: 20px;
+          margin-top: 14px;
+          cursor: pointer; }
+        .detailcon .detailright .center .shuliang dd input {
+          display: block;
+          float: left;
+          width: 54px;
+          height: 20px;
+          border: none;
+          border-bottom: 1px solid #666666;
+          border-top: 1px solid #666666;
+          margin-top: 14px;
+          text-align: center; }
+        .detailcon .detailright .center .shuliang dd b {
+          margin-left: 10px; }
+      .detailcon .detailright .center .shuoming {
+        height: 12px; }
+        .detailcon .detailright .center .shuoming dd i {
+          display: block;
+          width: 12px;
+          height: 12px;
+          float: left;
+          background: url(../images/duigou.jpg) no-repeat left top;
+          margin-right: 5px;
+          margin-top: 3px; }
+        .detailcon .detailright .center .shuoming dd a {
+          display: block;
+          float: left;
+          margin-right: 5px; }
+        .detailcon .detailright .center .shuoming dd .tan {
+          background: url(../images/gantan.jpg) no-repeat top left; }
+        .detailcon .detailright .center .shuoming dd span {
+          display: block;
+          float: left;
+          margin-right: 5px; }
+      .detailcon .detailright .center .buy {
+        margin-top: 22px;
+        height: 51px; }
+        .detailcon .detailright .center .buy a {
+          text-align: center;
+          display: block;
+          float: left;
+          font-size: 18px; }
+        .detailcon .detailright .center .buy .buydo, .detailcon .detailright .center .buy .jiaru {
+          width: 156px;
+          height: 46px;
+          line-height: 46px;
+          background: #ffeced;
+          border: 2px solid #d41c44;
+          color: #d41c44;
+          font-weight: bold;
+          margin-right: 20px; }
+        .detailcon .detailright .center .buy .jiaru {
+          background: #e31436;
+          color: #FFFFFF;
+          width: 160px;
+          height: 50px;
+          line-height: 50px;
+          border: none; }
+        .detailcon .detailright .center .buy .shoucang {
+          font-size: 12px;
+          line-height: 46px;
+          margin-left: 10px; }
+      .detailcon .detailright .center .xing {
+        height: 36px;
+        line-height: 36px; }
+        .detailcon .detailright .center .xing i {
+          margin-right: 3px;
+          color: #d41c44; }
+        .detailcon .detailright .center .xing span {
+          margin-left: 7px;
+          margin-right: 10px;
+          color: #d41c44; }
+        .detailcon .detailright .center .xing a {
+          margin-right: 10px; }
+      .detailcon .detailright .center .centerbot {
+        border-top: 1px dotted #CCCCCC;
+        height: 90px; }
+        .detailcon .detailright .center .centerbot span {
+          display: block;
+          height: 30px;
+          line-height: 30px; }
+        .detailcon .detailright .center .centerbot p {
+          line-height: 22px; }
+
+.guanggao {
+  height: 80px;
+  margin-bottom: 11px; }
+
+.xuanxiangka {
+  height: 285px; }
+  .xuanxiangka ul {
+    height: 58px; }
+    .xuanxiangka ul li {
+      height: 56px;
+      border-bottom: 2px solid #FFFFFF;
+      float: left;
+      width: 110px;
+      text-align: center;
+      line-height: 56px;
+      font-size: 16px;
+      font-weight: bold;
+      background: #FFFFFF;
+      cursor: pointer; }
+    .xuanxiangka ul .ulactive {
+      border-bottom: 2px solid #e31436;
+      color: #E31436; }
+  .xuanxiangka ol {
+    height: 227px;
+    width: 1090px;
+    position: relative; }
+    .xuanxiangka ol li {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #FFFFFF;
+      height: 227px;
+      width: 1090px;
+      border: 1px solid #CCCCCC;
+      font-size: 80px;
+      text-align: center;
+      line-height: 227px;
+      display: none; }
+    .xuanxiangka ol .olactive {
+      display: block; }
+
+.xiangqing {
+  overflow: hidden;
+  padding-top: 40px; }
+  .xiangqing .xqleft {
+    width: 178px;
+    overflow: hidden;
+    background: #FFFFFF;
+    float: left;
+    margin-right: 20px; }
+    .xiangqing .xqleft .llookagain {
+      border: 1px solid #CCCCCC; }
+    .xiangqing .xqleft h3 {
+      height: 40px;
+      font-size: 16px;
+      font-weight: bold;
+      padding-left: 10px;
+      line-height: 40px;
+      border-bottom: 1px solid #CCCCCC; }
+    .xiangqing .xqleft .lookbtm {
+      padding: 10px;
+      background: #FFFFFF; }
+      .xiangqing .xqleft .lookbtm .oneport {
+        width: 158px;
+        height: 268px;
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 10px; }
+        .xiangqing .xqleft .lookbtm .oneport img {
+          margin-bottom: 6px; }
+        .xiangqing .xqleft .lookbtm .oneport .jieshao {
+          display: block;
+          height: 48px;
+          line-height: 20px; }
+        .xiangqing .xqleft .lookbtm .oneport span {
+          display: block;
+          height: 21px;
+          line-height: 21px;
+          font-size: 14px;
+          color: #e32436;
+          font-weight: bold; }
+          .xiangqing .xqleft .lookbtm .oneport span del {
+            color: #999999;
+            font-size: 12px;
+            margin-left: 5px; }
+        .xiangqing .xqleft .lookbtm .oneport p {
+          height: 19px;
+          line-height: 19px;
+          color: #999999; }
+  .xiangqing .xqright {
+    width: 888px;
+    border: 1px solid #CCCCCC;
+    float: left; }
+    .xiangqing .xqright ul {
+      height: 48px;
+      border-bottom: 1px solid #CCCCCC;
+      background: #f8f8f8; }
+      .xiangqing .xqright ul li {
+        height: 48px;
+        width: 159px;
+        float: left;
+        font-size: 16px;
+        line-height: 48px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        border-right: 1px solid #CCCCCC; }
+        .xiangqing .xqright ul li i {
+          display: block;
+          width: 159px;
+          height: 4px;
+          position: absolute;
+          top: -1px;
+          left: 0;
+          background: #E31436;
+          z-index: 200;
+          display: none; }
+      .xiangqing .xqright ul a {
+        display: block;
+        float: right;
+        width: 120px;
+        height: 36px;
+        text-align: center;
+        line-height: 36px;
+        background: #E31436;
+        color: #FFFFFF;
+        margin-top: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 20px;
+        display: none; }
+      .xiangqing .xqright ul .xqrulactive {
+        font-weight: bold;
+        color: #e31436;
+        border-bottom: 1px solid #FFFFFF;
+        background: #FFFFFF; }
+        .xiangqing .xqright ul .xqrulactive i {
+          display: block; }
+    .xiangqing .xqright ol {
+      overflow: hidden;
+      position: relative;
+      height: 4700px; }
+      .xiangqing .xqright ol li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none; }
+      .xiangqing .xqright ol .xqrolactive {
+        display: block; }
+
+/*# sourceMappingURL=detailinfo.css.map */

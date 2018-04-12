@@ -1,0 +1,13 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,div { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+ul, ol { list-style:none; } 
+body { color:#333; font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",微软雅黑,tahoma,simsun,宋体;,HELVETICA; background:#fff;}
+header,nav,section,footer,article,aside{display: block;}
+a { color:#666; text-decoration:none; }
+i,em{font-style:normal;}
+b,strong,h1, h2, h3, h4, h5, h6{font-weight: normal;}
+
+
+
+/*=====================top=======================*/

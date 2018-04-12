@@ -1,0 +1,514 @@
+@font-face {
+	font-family: "iconfont";
+	src: url('../font/iconfont.eot'); /* IE9*/
+	src: url('../font/iconfont.woff') format('woff'),
+	url('../font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+	url('../font/iconfont.svg') format('svg'); /* iOS 4.1- */
+}
+	
+@font-face {
+	font-family: "iconfont";
+	src: url('../font/iconfont.eot'); /* IE9*/
+	src: url('../font/iconfont2.woff') format('woff'),
+	url('../font/iconfont2.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+	url('../font/iconfont.svg') format('svg'); /* iOS 4.1- */
+}	
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont.eot'); /* IE9*/
+  src: url('../font/iconfont3.woff') format('woff'),
+  url('../font/iconfont3.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg') format('svg'); /* iOS 4.1- */
+}
+			
+.iconfont {
+	font-family:"iconfont" !important;
+	font-size:16px;
+	font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #e31436;
+}
+
+.marginauto{
+	margin: 0 auto;
+}
+.width1090{
+	width: 1090px;
+}
+.width100{
+	width: 100%;
+}
+.width1197{
+	width: 1197px;
+}
+.width1036{
+	width: 1036px;
+}
+.width696{
+	width: 696px;
+}
+/*headTop*/
+.headTopWrap{
+	width: 100%;
+	background: #f2f2f2;
+				
+}
+.headTop{
+	height: 30px;
+	line-height: 30px;
+	background: #f2f2f2;
+	/*border-bottom: 1px solid #ededee;*/
+}
+.headTop #htLeft{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	color: #666666;
+}
+.headTop #htLeft a:hover{
+	color: #e31436;
+}
+#htLeft #margin20{
+	margin-right: 20px;
+}
+#htLeft #shu{
+	color: #d3ccd3;
+}
+.headTop #htmiddle{
+	height: 30px;
+	line-height: 30px;
+	margin-left: 30px;
+	color: #666666;
+}
+.headTop #htmiddle i{
+	vertical-align: middle;
+	
+}
+.headTop #htmiddle span{
+	vertical-align: middle;
+}
+.headTop #htmiddle:hover{
+	color:#e31436;
+}
+.headTop ul{
+	float: right;
+	color: #666666;
+}
+
+.headTop ul li{
+	float: left;
+	/*position: relative;*/
+}
+.headTop ul li a{
+	display: block;
+	float: left;
+	padding: 0 15px 0 15px;
+	height: 30px;
+	line-height: 30px;
+}
+.headTop ul li a:hover{
+	color:#e31436;
+}
+.headTop ul li .mouseenterA{
+	background: #FFFFFF;
+	border-bottom:none;
+}
+.headTop ul li ul{
+	position: absolute;
+	padding: 0 15px;
+	top: 31px;
+	border: 1px solid #dddddd;
+	border-top: none;
+	display: none;
+	background: #FFFFFF;
+}
+.headTop ul li ul li{
+	float: none;
+}
+
+/*head*/
+.headWrap{
+	width: 100%;
+	border-top: 1px solid #ededee;
+}
+.head{
+	/*background: yellow;*/
+	height: 55px;
+	padding:25px 0 20px 0;
+}
+.head h1 a{
+	display: block;
+	margin-top: 5px;
+	float: left;
+	width: 206px;
+	height: 42px;
+	background: url(../images/logo.jpg);
+}
+.head .searchAnd{
+	float: left;
+	margin-left: 137px;
+}
+.head .searchAnd .search{
+	float: left;
+	width: 458px;
+	height: 32px;
+	border: 2px solid #333333;
+	padding-left: 30px;
+	background: no-repeat url(../images/smallfangdajing.jpg) 10px 10px;
+	outline: none;
+}
+.head .searchAnd .fangdajing{
+	display: block;
+	float: left;
+	width: 49px;
+	height: 38px;
+	border-radius:0 5px 5px 0;
+	background:#333333 url(../images/fangdajing.jpg) no-repeat center center ;
+}
+.head .shopcar{
+	display: block;
+	float: right;
+	text-align: center;
+	line-height: 34px;
+	width: 108px;
+	height: 34px;
+	border: 1px solid #dddddd;
+	color: #333333;
+	background: #FFFFFF ;
+	border-radius: 5px;
+	/*padding-left:46px ;*/
+}
+.head .shopcar .iconshopcar{
+	color: #a9a9a9;
+}
+.head .searchAnd .smallnav{
+	position: absolute;
+	margin-top: 42px;
+	color: #999999;
+}
+.head .searchAnd .smallnav li{
+	float: left;
+	padding: 0 10px 0 10px;
+	border-right: 1px solid #b299b2;
+	
+}
+.head .searchAnd .smallnav .firstli a{
+	color: #e31436;
+}
+.head .searchAnd .smallnav .lastli{
+	border: none;
+}
+
+/*吸顶*/
+.xiding{
+	height: 43px;
+	background: #FFFFFF;
+	padding: 7px 0 0 175px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 1000;
+}
+.xiding img{
+	height: 35px;
+	float: left;
+	margin-right: 162px;
+}
+
+.xiding .xidingsearch{
+	float: left;
+}
+.xiding .xidingsearch .search{
+	float: left;
+	width: 458px;
+	height: 32px;
+	border: 2px solid #333333;
+	padding-left: 30px;
+	background: #FFFFFF no-repeat url(../images/smallfangdajing.jpg) 10px 10px;
+	outline: none;
+
+}
+.xiding .xidingsearch .fangdajing{
+	display: block;
+	float: left;
+	width: 49px;
+	height: 38px;
+	border-radius:0 5px 5px 0;
+	float: left;
+	background:#333333 url(../images/fangdajing.jpg) no-repeat center center ;
+}
+/*nav*/
+.navwrap{
+	height: 40px;
+	border-bottom: 2px solid #151515;
+}
+.navwrap .nav{
+	height: 40px;
+	/*background: yellowgreen;*/
+}
+.navwrap .nav .listtop{
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	background: #151515;
+	color: #FFFFFF;
+	float: left;
+	position: relative;
+}
+.navwrap .nav .listtop .leftnav{
+	position: absolute;
+	width: 160px;
+	/*background: #151515;*/
+	top: 42px;
+	text-align: left;
+	background: rgba(15,15,15,0.8);
+	font-size: 14px;
+	z-index: 10;
+}
+.navwrap .nav .listtop .leftnav li{
+	display: block;
+	height: 40px;
+	padding: 0 10px;
+}
+.navwrap .nav .listtop .leftnav li .secondMenu{
+	width: 800px;
+	height: 398px;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	position: absolute;
+	top: 0;
+	left: 160px;
+	color: #333333;
+	display: none;
+	z-index: 150;
+	
+	font-size: 60px;
+	text-align: center;
+	line-height: 300px;
+}
+
+.navwrap .nav .listtop .leftnav .active{
+	background: #555555;
+	
+}
+
+
+.navwrap .nav .listtop .leftnav li a{
+	display: block;
+	border-bottom: 1px solid #414142;  /*写js事件时去掉border*/
+	height: 39px;
+	line-height: 39px;
+	color: #FFFFFF;
+}
+
+
+.navwrap .nav .listtop .leftnav li a img{
+	vertical-align: middle;
+	padding: 0 12px 0 14px;
+}
+.navwrap .nav .listtop .leftnav li a .leftnavjianjiao{
+	color: #7b888a;
+	margin-right: 10px;
+	/*text-align: right;*/
+	float: right;
+}
+.navwrap .nav .listtop .leftnav .lastleftnav a{
+	border: none;
+}
+.navwrap .nav .listtop .leftnav li a img{
+	display: inline;
+}
+.navwrap .nav .listleft{
+	float: left;
+}
+.navwrap .nav .listleft li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	
+	font-weight: bold;
+	font-size:14px ;
+}
+.navwrap .nav .listleft li a{
+	color: #333333;
+}
+
+.navwrap .nav .listleft .index a{
+	padding-left: 20px;
+	
+}
+.navwrap .nav .listleft .hover{
+	color: #e31436;
+}
+
+
+
+
+
+
+
+
+/*foot*/
+.footerWrap{
+	overflow: hidden;
+}
+.foot1{
+	/*background: yellowgreen;*/
+	height: 124px;
+	border-bottom: 1px solid #eaeaea;
+}
+.foot1 ul li{
+	float: left;
+	height: 44px;
+	width:299px;
+	padding: 40px 0 40px 0;
+	font-family: "黑体";
+	color: #333333;
+}
+.foot1 ul li span{
+	display: block;
+	width: 44px;
+	height: 44px;
+	float: left;
+	margin-right: 12px;
+	background: url(../images/jinglingtu.png) no-repeat -750px 0;
+}
+.foot1 ul li .sp2{
+	background: url(../images/jinglingtu.png) no-repeat -812px 0;
+}
+.foot1 ul li .sp3{
+	background: url(../images/jinglingtu.png) no-repeat -872px 0;
+}
+.foot1 ul li .sp4{
+	background: url(../images/jinglingtu.png) no-repeat -936px 0;
+}
+.foot1 ul li .oneh{
+	font-size: 18px;
+	font-weight: bold;
+}
+.foot1 ul li .secondh{
+	font-size: 14px;
+}
+
+
+.foot2{
+	/*background: skyblue;*/
+	height: 128px;
+	padding: 40px 0 90px 0;
+}
+.foot2 .footleft{
+	float: left;
+	width: 235px;
+}
+.foot2 .footleft h2 a{
+	display: block;
+	width: 206px;
+	height: 42px;
+	background: url(../images/logo.jpg) no-repeat  left top;
+}
+.foot2 .footleft span{
+	height: 87px;
+	line-height: 77px;
+	display: block;
+	float: left;
+	margin-right: 13px;
+}
+.foot2 .footleft ul{
+	width: 135px;
+	height: 32px;
+	float: left;
+	margin-top: 20px;
+}
+.foot2 .footleft ul li a{
+	display: block;
+	float: left;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin-right: 13px;
+	background: url(../images/jinglingtu.png) no-repeat -752px -69px;
+}
+.foot2 .footleft ul li:nth-child(2) a{
+	background: url(../images/jinglingtu.png) no-repeat -796px -69px;
+}
+.foot2 .footleft ul li:nth-child(3) a{
+	background: url(../images/jinglingtu.png) no-repeat -840px -69px;
+}
+.foot2 .footcenter{
+	float: left;
+	/*height: 128px;*/
+}
+.foot2 .footcenter ul{
+	float: left;
+	width: 110px;
+	height: 128px;
+	border-left: 1px solid #eaeaea;
+	padding-left: 25px;
+}
+
+.foot2 .footcenter ul li:first-child{
+	font-size: 18px;
+	height:34px ;
+}
+.foot2 .footcenter ul li{
+	height: 23px;
+	line-height: 23px;
+	
+}
+
+
+
+.foot2 .footright{
+	float: left;
+	width: 108px;
+	height: 128px;
+	padding-left: 10px;
+}
+.foot2 .footright p{
+	padding-top: 9px;
+	text-align: center;
+}
+/*footer*/
+.footerWrap{
+	overflow: hidden;
+	background: #333333;
+	
+}
+.footer{
+	height: 118px;
+	background: #333333;
+	color: #c2c2c2;
+	padding: 20px 0 15px 0;
+	text-align: center;
+}
+.footer p{
+	height: 26px;
+	line-height: 26px;
+}
+.footer p a{
+	color: #c2c2c2;
+	
+}
+.footer .spe img{
+	display: inline;
+}
+.footer .lastimg{
+	padding-left: 240px;
+	padding-top: 10px;
+}
+.footer .lastimg img{
+	display: block;
+	width: 83px;
+	height: 30px;
+	float: left;
+	margin-right: 15px;
+	
+}
+.footer .lastimg .ssppee{
+	width: 33px;
+	height: 33px;
+}
