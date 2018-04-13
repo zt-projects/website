@@ -37,15 +37,14 @@
     height: 520px; }
     .centerWrap .centercon .outbox {
       width: 350px;
-      height: 392px;
       overflow: hidden;
-      background: yellow;
+      background: lightpink;
       position: absolute;
       top: 149px;
       left: 808px;
       border: 1px solid #eaeaea; }
       .centerWrap .centercon .outbox .login {
-        position: absolute;
+        position: relative;
         width: 350px;
         top: 0;
         left: 0; }
@@ -74,24 +73,269 @@
           .centerWrap .centercon .outbox .login ul .loginulactive {
             color: #E31436; }
         .centerWrap .centercon .outbox .login ol li {
-          width: 270px;
-          padding: 0 40px;
+          width: 350px;
           display: none; }
         .centerWrap .centercon .outbox .login ol .phonelogin {
-          height: 339px;
-          background: yellowgreen; }
+          height: 300px;
+          background: #FFFFFF; }
+          .centerWrap .centercon .outbox .login ol .phonelogin .phonetop {
+            height: 279px;
+            padding: 19px 40px 0 40px; }
+            .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .yanzhenglog {
+              height: 25px;
+              width: 270px; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .yanzhenglog .yanzhengma {
+                float: right; }
+            .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .phoneinput {
+              height: 34px;
+              width: 231px;
+              line-height: 34px;
+              border: 1px solid #DDDDDD;
+              padding-left: 39px;
+              background: url(../images/phoneinput.JPG) no-repeat 10px center;
+              margin-bottom: 16px;
+              outline: none; }
+            .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .tuodongbox {
+              height: 26px;
+              border: 1px solid #DDDDDD;
+              background: #eeeeee;
+              color: #a8a8a8;
+              border-radius: 28px;
+              line-height: 26px;
+              position: relative;
+              margin-bottom: 16px; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .tuodongbox span {
+                margin-left: 88px; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .tuodongbox .huakuai {
+                position: absolute;
+                height: 22px;
+                width: 56px;
+                background: #FFFFFF;
+                border: 2px solid #DDDDDD;
+                border-radius: 28px;
+                left: 0;
+                top: 0;
+                text-align: center;
+                line-height: 22px;
+                cursor: pointer;
+                font-weight: bold; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .tuodongbox .pintu {
+                height: 84px;
+                width: 270px;
+                background: skyblue;
+                position: absolute;
+                left: 0;
+                top: -92px;
+                border-radius: 20px;
+                display: none; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .tuodongbox .pintushow {
+                display: block; }
+            .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .yanzheng {
+              height: 34px;
+              line-height: 34px;
+              border: 1px solid #d5d5d5; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .yanzheng input {
+                height: 32px;
+                width: 163px;
+                border: 0;
+                padding-left: 8px;
+                float: left;
+                outline: none; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .yanzheng a {
+                display: block;
+                width: 96px;
+                height: 34px;
+                background: #EEEEEE;
+                border-left: 1px solid #D5D5D5;
+                float: left;
+                text-align: center; }
+            .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .tishi {
+              height: 30px;
+              line-height: 30px;
+              color: #E31436; }
+            .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .logbtn {
+              display: block;
+              height: 36px;
+              background: #E31436;
+              text-align: center;
+              line-height: 36px;
+              color: #FFFFFF;
+              margin-bottom: 10px; }
+            .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .nologin {
+              height: 46px; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .nologin input {
+                width: 14px;
+                height: 14px;
+                border: 1px solid #999999; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .nologin span {
+                margin-left: 8px;
+                color: #999999; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonetop .nologin a {
+                color: #999999;
+                margin-left: 110px; }
+          .centerWrap .centercon .outbox .login ol .phonelogin .phonebtm {
+            height: 22px;
+            background: #F8F8F8;
+            line-height: 40px;
+            border-top: 1px solid #DDDDDD;
+            padding: 10px 40px 10px 40px; }
+            .centerWrap .centercon .outbox .login ol .phonelogin .phonebtm ul {
+              width: 133px;
+              height: 32px;
+              border: 0;
+              float: left; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonebtm ul li {
+                display: block;
+                width: 22px;
+                height: 22px;
+                float: left;
+                margin-right: 10px;
+                border-radius: 50%;
+                background: url(../images/jinglingtu.png) no-repeat -760px -400px; }
+            .centerWrap .centercon .outbox .login ol .phonelogin .phonebtm .quick {
+              float: left;
+              margin-top: 5px;
+              margin-left: 30px; }
+              .centerWrap .centercon .outbox .login ol .phonelogin .phonebtm .quick a {
+                color: #E31436;
+                display: block;
+                width: 100px;
+                height: 14px;
+                line-height: 14px; }
+                .centerWrap .centercon .outbox .login ol .phonelogin .phonebtm .quick a span {
+                  display: block;
+                  width: 14px;
+                  height: 14px;
+                  float: right;
+                  background: url(../images/jinglingtu.png) no-repeat -900px -406px; }
         .centerWrap .centercon .outbox .login ol .emaillogin {
           height: 271px;
-          background: yellow; }
+          background: #ffffff;
+          font-size: 40px;
+          line-height: 160px;
+          text-align: center; }
         .centerWrap .centercon .outbox .login ol .loginolactive {
           display: block; }
       .centerWrap .centercon .outbox .register {
-        background: blue;
-        position: absolute;
+        background: #FFFFFF;
+        position: relative;
+        overflow: hidden;
         width: 350px;
         top: 0;
         left: 0;
         display: none; }
+        .centerWrap .centercon .outbox .register .title {
+          height: 52px;
+          line-height: 52px;
+          padding: 0 40px 0 40px;
+          border-bottom: 1px solid #D5D5D5;
+          background: #f8f8f8; }
+          .centerWrap .centercon .outbox .register .title span {
+            font-size: 16px;
+            color: #E31436;
+            font-weight: bold; }
+          .centerWrap .centercon .outbox .register .title b {
+            margin-left: 90px; }
+          .centerWrap .centercon .outbox .register .title a {
+            color: skyblue; }
+        .centerWrap .centercon .outbox .register .rebox {
+          padding: 40px 40px 10px 40px;
+          overflow: hidden; }
+          .centerWrap .centercon .outbox .register .rebox .phoneinput2 {
+            height: 34px;
+            width: 231px;
+            line-height: 34px;
+            border: 1px solid #DDDDDD;
+            padding-left: 39px;
+            background: url(../images/phoneinput.JPG) no-repeat 10px center;
+            margin-bottom: 16px;
+            outline: none; }
+          .centerWrap .centercon .outbox .register .rebox .tuodongbox2 {
+            height: 26px;
+            border: 1px solid #DDDDDD;
+            background: #eeeeee;
+            color: #a8a8a8;
+            border-radius: 28px;
+            line-height: 26px;
+            position: relative;
+            margin-bottom: 16px; }
+            .centerWrap .centercon .outbox .register .rebox .tuodongbox2 span {
+              margin-left: 88px; }
+            .centerWrap .centercon .outbox .register .rebox .tuodongbox2 .huakuai2 {
+              position: absolute;
+              height: 22px;
+              width: 56px;
+              background: #FFFFFF;
+              border: 2px solid #DDDDDD;
+              border-radius: 28px;
+              left: 0;
+              top: 0;
+              text-align: center;
+              line-height: 22px;
+              cursor: pointer;
+              font-weight: bold; }
+            .centerWrap .centercon .outbox .register .rebox .tuodongbox2 .pintu2 {
+              height: 84px;
+              width: 270px;
+              background: skyblue;
+              position: absolute;
+              left: 0;
+              top: -92px;
+              border-radius: 20px;
+              display: none; }
+            .centerWrap .centercon .outbox .register .rebox .tuodongbox2 .pintushow {
+              display: block; }
+          .centerWrap .centercon .outbox .register .rebox .yanzheng2 {
+            height: 34px;
+            line-height: 34px;
+            border: 1px solid #d5d5d5;
+            margin-bottom: 15px; }
+            .centerWrap .centercon .outbox .register .rebox .yanzheng2 input {
+              height: 32px;
+              width: 163px;
+              border: 0;
+              padding-left: 8px;
+              float: left;
+              outline: none; }
+            .centerWrap .centercon .outbox .register .rebox .yanzheng2 a {
+              display: block;
+              width: 96px;
+              height: 34px;
+              background: #EEEEEE;
+              border-left: 1px solid #D5D5D5;
+              float: left;
+              text-align: center; }
+          .centerWrap .centercon .outbox .register .rebox .pwd2 {
+            height: 34px;
+            width: 231px;
+            line-height: 34px;
+            border: 1px solid #DDDDDD;
+            padding-left: 39px;
+            outline: none; }
+          .centerWrap .centercon .outbox .register .rebox .pwdtishi {
+            height: 30px;
+            color: #E31436;
+            line-height: 30px; }
+          .centerWrap .centercon .outbox .register .rebox .logbtn2 {
+            display: block;
+            height: 36px;
+            background: #E31436;
+            text-align: center;
+            line-height: 36px;
+            color: #FFFFFF;
+            margin-bottom: 10px; }
+          .centerWrap .centercon .outbox .register .rebox .nologin2 {
+            height: 46px; }
+            .centerWrap .centercon .outbox .register .rebox .nologin2 input {
+              width: 14px;
+              height: 14px;
+              border: 1px solid #999999; }
+            .centerWrap .centercon .outbox .register .rebox .nologin2 span {
+              margin-left: 8px;
+              color: #999999; }
+            .centerWrap .centercon .outbox .register .rebox .nologin2 a {
+              color: #999999;
+              margin-left: 110px; }
       .centerWrap .centercon .outbox .show {
         display: block; }
 
