@@ -201,11 +201,19 @@
 }
 
 /*吸顶*/
+.xidingWrap{
+	height: 43px;
+	/*width: 100%;*/
+	/*overflow: hidden;*/
+	position: fixed;
+	background: #FFFFFF;
+}
 .xiding{
+	width: 1090px;
+	margin: 0 auto;
 	height: 43px;
 	background: #FFFFFF;
-	padding: 7px 0 0 175px;
-	position: fixed;
+	/*position: fixed;*/
 	top: 0;
 	left: 0;
 	display: none;
