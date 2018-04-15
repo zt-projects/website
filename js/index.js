@@ -43,6 +43,7 @@ function focusenter(){
 //吸顶
 function xiding(){
 	$(document).scroll(function(){
+		
 		if($(document).scrollTop()>=$(".navwrap").offset().top-80){
 			$(".xiding").css("display","block")
 		}

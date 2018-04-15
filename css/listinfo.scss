@@ -1,0 +1,242 @@
+@charset "utf-8";
+.width1000{
+    width: 1000px;
+}
+//top 小问题解决
+.nav{
+    .listtop{
+        .leftnav{
+            display: none;
+        }
+    }
+}
+.nav .listtop{
+    cursor:  pointer;
+    
+}
+
+
+
+//top大图
+.gctopimg{
+    height: 400px;
+    background: url(../images/gctopimg.jpg) no-repeat center top;
+}
+
+//内容部分
+.conbotWrap{
+    overflow: hidden;
+    background: #c4d1fb;
+}
+
+//楼层列表
+.floorlist{
+    position: fixed;
+    top: 200px;
+    right: 50px;
+    li{
+        height: 30px;
+        width: 100px;
+        line-height: 30px;
+        text-align: center;
+        background: #6f78ba;
+        border-bottom: 1px solid #586094;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .floorhover{
+        background: #586094;
+    }
+}
+
+.content {
+    .floor{
+//      height: 500px;
+        overflow: hidden;
+        background: #c4d1fb;
+        padding-bottom: 20px;
+        h2{
+            height: 60px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 60px;
+            color: #FFFFFF;
+            background: #577fef;
+            margin: 20px 0;
+        }
+        ul{
+            padding-bottom: 20px;
+        }
+    }
+    #floor1{
+        ul{
+//          padding-bottom: 20px;
+            li{
+                overflow: hidden;
+                float: left;
+                width: 244px;
+                height: 348px;
+                margin-right: 8px;
+                background: red;
+                cursor: pointer;
+                
+                .libot{
+                    width: 244px;
+                    height: 102px;
+                    background: #FFFFFF;
+                    position: relative;
+                    padding-top: 50px;
+                    .topimg{
+                        display: block;
+                        overflow: hidden;
+                        width: 82px;
+                        height: 82px;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: 50%;
+                        margin-left: -41px;
+                        top: -41px;
+                        border: 1px solid #e2e2e2;
+                        img{
+                            width: 82px;
+                            height: 82px;
+                        }
+                    }
+                    .botinfo{
+                        text-align: center;
+                        p{
+                            height: 20px;
+                            line-height: 20px;
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                        span{
+                            display: block;
+                            height: 20px;
+                            line-height: 20px;
+                            color: #E31436;
+                        }
+                        b{
+                            display: block;
+                            width: 124px;
+                            height: 28px;
+                            text-align: center;
+                            line-height: 28px;
+                            background: #294199;
+                            color: #FFFFFF;
+                            margin: 0 auto;
+                            margin-top: 15px;
+                            border-radius: 15px;
+                        }
+                    }
+                }
+            }
+            .lasthotli{
+                margin-right: 0;
+            }
+        }
+    }
+    
+    div:not(#floor1){
+        ul{
+            li{
+                height: 314px;
+                width: 197px;
+                background: #FFFFFF;
+                float: left;
+                margin: 0 3px 3px 0;
+                position: relative;
+                img{
+                    width: 197px;
+                    height: 197px;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                }
+                .f2tit{
+                    display: inline-block;
+                    width: 161px;
+                    height:17px ;
+                    line-height: 17px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    font-weight: bold;
+                    padding: 0 18px;
+                    color: #333333;
+                }
+                .f2info{
+                    height: 17px;
+                    line-height: 17px;
+                    padding: 0 12px;
+                    color: #333333;
+                }
+                .zhekou{
+                    margin-top: 9px;
+                    height: 20px;
+                    padding-left: 12px;
+                    b{
+                        display: block;
+                        width: 37px;
+                        height: 18px;
+                        line-height: 18px;
+                        border: 1px dotted #E31436;
+                        color: #E31436;
+                        text-align: center;
+                        
+                    }
+                }
+                .price{
+                    height: 30px;
+                    line-height: 30px;
+                    padding-left: 12px;
+                    padding-right: 12px;
+                    span{
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #E31436;
+                    }
+                    a{
+                        display: block;
+                        float: right;
+                        width: 60px;
+                        height: 26px;
+                        background: #E31436;
+                        color: #FFFFFF;
+                        line-height: 26px;
+                        text-align: center;
+                    }
+                }
+                .hovershow{
+                    display: block;
+                    height: 32px;
+                    width:173px;
+                    padding: 0 12px;
+                    line-height: 32px;
+                    z-index: 10;
+                    position: absolute;
+                    background: rgba(0,0,0,0.6);
+                    left: 0;
+                    top: 165px;
+                    display: none;
+                    b{
+                        
+                        color: #E31436;
+                    }
+                    i{
+                        display: block;
+                        color: #FFFFFF;
+                        float: right;
+                    }
+                }
+                .entershow{
+                    display: block;
+                }
+            }
+        }
+    }
+
+
+
+
+}
+

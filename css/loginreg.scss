@@ -106,18 +106,26 @@
 //                      }
                     }
                     .phonelogin{
-                        height: 300px;
+                        height: 341px;
                         background: #FFFFFF;
+                        position: relative;
                         .phonetop{
                             height: 279px;
-                            padding: 19px 40px 0 40px;
+                            padding: 19px 40px 19px 40px;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
                             .yanzhenglog{
                                 height: 25px;
                                 width: 270px;
 //                              background: skyblue;
                                 .yanzhengma{
                                     float: right;
+                                    &:hover{
+                                        color: #E31436;
+                                    }
                                 }
+                                
                             }
                             .phoneinput{
                                 height: 34px;
@@ -183,6 +191,9 @@
                                     float: left;
                                     outline: none;
                                 }
+                                .pwd{
+                                    padding-left: 39px;
+                                }
                                 a{
                                     display: block;
                                     width: 96px;
@@ -231,12 +242,92 @@
                             
                             
                         }
+                        
+                        //新添加的通过密码登录
+                        .pwdlogin{
+                            background: #ffffff;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            display: none;
+                            padding: 19px 40px 0 40px;
+                            .pwdyanzhenglog{
+                                height: 25px;
+                                width: 270px;
+//                              background: skyblue;
+                                .pwdyanzhengma{
+                                    float: right;
+                                    &:hover{
+                                        color: #E31436;
+                                    }
+                                }
+                            }
+                            
+                            .pwdphone{
+                                height: 34px;
+                                width: 231px;
+                                line-height: 34px;
+                                border: 1px solid #DDDDDD;
+                                padding-left: 39px;
+                                background: #FFFFFF url(../images/phoneinput.JPG) no-repeat 10px center;
+                                margin-bottom: 16px;
+                                outline: none;
+                            }
+                            .pwdpwd{
+                                height: 34px;
+                                width: 231px;
+                                line-height: 34px;
+                                border: 1px solid #DDDDDD;
+                                padding-left: 39px;
+                                background: #FFFFFF url(../images/phoneinput.JPG) no-repeat 10px center;
+//                              margin-bottom: 16px;
+                                outline: none;
+                            }
+                            
+                            .pwdlogtishi{
+                                height: 30px;
+//                              background: red;
+                                line-height: 30px;
+                                color: #E31436;
+                            }
+                            .pwdlogbtn{
+                                display: block;
+                                height: 36px;
+                                background: #E31436;
+                                text-align: center;
+                                line-height: 36px;
+                                color: #FFFFFF;
+                                margin-bottom: 10px;
+                            }
+                            .pwdnologin{
+                                height: 26px;
+                                input{
+                                    width: 14px;
+                                    height: 14px;
+                                    border: 1px solid #999999;
+//                                  
+                                }
+                                span{
+                                    margin-left: 8px;
+                                    color: #999999;
+                                }
+                                a{
+                                    color: #999999;
+//                                  display: block;
+                                    margin-left: 110px;
+                                }
+                            }
+                        }
+                        
                         .phonebtm{
                             height: 22px;
                             background: #F8F8F8;
-                            line-height: 40px;
+                            line-height: 22px;
                             border-top: 1px solid #DDDDDD;
                             padding: 10px 40px 10px 40px;
+                            position: relative;
+                            left: 0;
+                            top: 299px;
                             ul{
                                 width: 133px;
                                 height: 32px;

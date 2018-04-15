@@ -4,9 +4,118 @@ $(document).ready(function(){
 	tologin();
 	regcheck();
 	jltchange();
-	
-	
+	logcheck();
+	topwdlogin();
+	toduanlogin();
+	huakuaishow();
 })
+
+//短信登录时滑块出现
+function huakuaishow(){
+	//注册时验证
+	$(".rebox .tuodongbox2").mouseenter(function(){
+		$(".pintu2").css("display","block")
+	}).mouseleave(function(){
+		$(".pintu2").css("display","none")
+	})
+	//登录时验证
+	$(".phonetop .tuodongbox").mouseenter(function(){
+		$(".pintu").addClass("pintushow")
+	}).mouseleave(function(){
+		$(".pintu").removeClass("pintushow")
+	})
+}
+
+//登录格式验证及提交
+function logcheck(){
+	var flagcheck1=false;
+	var flagcheck2=false;
+	$(".phoneinput").blur(function(){
+		var reg=/^1[35678]\d{9}$/;
+		flagcheck1=reg.test($(this).val());
+		if(!flagcheck1){
+			$(".tishi").html("手机号格式错误");
+			$(this).css("border","1px solid #e31436");
+		}else{
+			$(".tishi").html("");
+			$(this).css("border","");
+		}
+	})
+	
+	$(".pwdphone").blur(function(){
+		var reg=/^1[35678]\d{9}$/;
+		flagcheck2=reg.test($(this).val());
+		if(!flagcheck2){
+			$(".pwdlogtishi").html("手机号格式错误");
+			$(this).css("border","1px solid #e31436");
+		}else{
+			$(".pwdlogtishi").html("");
+			$(this).css("border","");
+		}
+		
+	})
+	
+	$(".pwdpwd").blur(function(){
+		if($(this).val()==""){
+			$(".pwdlogtishi").html("请输入密码");
+		}else{
+			$(".pwdlogtishi").html("");
+			
+		}
+	})
+	
+	$(".pwdlogbtn").mousedown(function(){
+		if($(".pwdphone").val()=="" ){
+			$(".pwdlogtishi").html("请输入用户名");
+		}else if($(".pwdpwd").val()==""){
+			$(".pwdlogtishi").html("请输入密码");
+		}else if(flagcheck2){
+			$.ajax({
+				type:"get",
+				url:"./php/loginreg.php",
+				async:true,
+				data:{
+					uname:$(".pwdphone").val(),
+					pwd:$(".pwdpwd").val(),
+					typee:"logincheck"
+				},
+				success:function(res){
+					console.log("login:"+res);
+					if(res=="1"){
+						$(".pwdlogtishi").html("");
+						location.href="./index.html";
+					}else if(res=="0"){
+						$(".pwdlogtishi").html("用户名或密码错误");
+						
+					}
+				}
+			});
+		}
+		
+		
+	})
+}
+
+//切换到短信验证登录
+function toduanlogin(){
+	$(".pwdyanzhengma").mousedown(function(){
+		$(".phonetop").css("display","block");
+		$(".pwdlogin").css("display","none");
+		$(".phonelogin").css("height","341px");
+		$(".phonebtm").css("top","299px")
+	})
+}
+
+//切换到密码验证登录
+function topwdlogin(){
+	$(".yanzhengma").click(function(){
+//		alert()
+		$(".phonetop").css("display","none");
+		$(".pwdlogin").css("display","block");
+		$(".phonelogin").css("height","301px");
+		$(".phonebtm").css("top","260px")
+	})
+}
 
 
 //微信微博等图标的精灵图放置
@@ -17,7 +126,7 @@ function jltchange(){
 	})
 }
 
-//注册格式验证
+//注册格式验证及提交
 function regcheck(){
 	var flag1=false;
 	var flag2=false;
@@ -46,9 +155,11 @@ function regcheck(){
 					console.log(res);
 					if(res=="1"){
 						$(".pwdtishi").html("用户名已存在")
+						$(".phoneinput2").css("border","1px solid #e31436")
 						
 					}else if(res=="0"){
 						$(".pwdtishi").html("")
+						$(".phoneinput2").css("border","")
 						flagnamecheck=true;
 					}
 				}
@@ -56,7 +167,10 @@ function regcheck(){
 			
 		}
 	})
+	
 	$(".pwd2").blur(function(){
+	if(flag1 && flagnamecheck){
+		
 		flag2=false;
 		var reg=/^\w{6,16}$/;
 		flag2=reg.test($(this).val());
@@ -68,6 +182,7 @@ function regcheck(){
 			$(this).css("border","")
 			
 		}
+	}
 	})
 	
 	$(".logbtn2").mousedown(function(){

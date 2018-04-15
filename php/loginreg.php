@@ -4,6 +4,21 @@
 	
 	$type=$_GET["typee"];
 //	echo $type;
+
+	if($type=="logincheck"){
+		$uname=$_GET["uname"];
+		$pwd=$_GET["pwd"];
+		$sql="select * from user where uname='$uname' and pwd='$pwd'";
+		$res=mysql_query($sql);
+		$arr=mysql_fetch_array($res);
+		
+		if($arr){
+			echo 1;
+		}else{
+			echo 0;
+		}
+	}
+
 	if($type=="regcheck"){
 		$uname=$_GET["uname"];
 		$pwd=$_GET["pwd"];

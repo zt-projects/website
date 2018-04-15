@@ -181,6 +181,7 @@
 }
 .head .shopcar .iconshopcar{
 	color: #a9a9a9;
+	font-size:18px;
 }
 .head .searchAnd .smallnav{
 	position: absolute;
@@ -210,15 +211,16 @@
 }*/
 .xiding{
 	/*width: 1090px;*/
+	position: fixed;
 	margin: 0 auto;
 	height: 43px;
 	background: #FFFFFF;
-	/*position: fixed;*/
-	top: 0;
-	left: 0;
+	
 	display: none;
 	z-index: 1000;
-	padding: 7px 0 0 175px;
+	top: 0;
+	left: 0;
+	padding: 7px 0 0 140px;
 }
 .xiding img{
 	height: 35px;
@@ -418,7 +420,7 @@
 }
 .autoPlay .prev,.next{
 	position: absolute;
-	left:350px;
+	left:300px;
 	top: 165px;
 	width: 33px;
 	height: 68px;
@@ -437,7 +439,7 @@
 .autoPlay .next{
 	width: 33px;
 	height: 68px;
-	left: 1225px;
+	left: 1175px;
 	top: 165px;
 	background: rgba(0,0,0,0.5);
 	font-size: 25px;
