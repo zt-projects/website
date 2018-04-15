@@ -34,6 +34,7 @@
     position: fixed;
     top: 200px;
     right: 50px;
+    display: none;
     li{
         height: 30px;
         width: 100px;
@@ -96,7 +97,7 @@
                         left: 50%;
                         margin-left: -41px;
                         top: -41px;
-                        border: 1px solid #e2e2e2;
+                        border: 1px solid #bbbbbb;
                         img{
                             width: 82px;
                             height: 82px;

@@ -26,9 +26,17 @@ $(document).ready(function(){
 	new PlayImg($(".kids .kidsright .outul7"),$(".kids .kidsright .ol7"),$(".kids .kidsright"),"activesmall").init();
 	xiding();
 	focusenter();
-	
+	toumingchange();
 });
 
+//移入透明度变化
+function toumingchange(){
+	$(".hh .kids .kidscenter ul li").mouseenter(function(){
+		$(this).css("opacity","0.8");
+	}).mouseleave(function(){
+		$(this).css("opacity","1")
+	})
+}
 
 //关注我们鼠标移入
 function focusenter(){
